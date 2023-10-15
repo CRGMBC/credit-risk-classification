@@ -11,7 +11,6 @@ Target Variable: loan_status (Binary: 0 or 1)
 Features: Other columns in the dataset, excluding the target variable.
 
 ## Stages of the Machine Learning Process:
-
 Data Loading and Exploration:
 * Loaded the dataset into a Pandas DataFrame.
 * Explored the structure of the data using head() to understand the features.
@@ -30,7 +29,6 @@ Model Evaluation:
 * Printed a classification report, including precision, recall, and F1-score.
 
 ## Methods Used
-
 Logistic Regression: 
 * Utilized the logistic regression algorithm for its suitability in binary classification tasks.
   
@@ -42,16 +40,15 @@ Evaluation Metrics:
 
 
 ## Results
+Accuracy Score:
+* The accuracy of the logistic regression model is high, indicating the overall correctness of predictions. The accuracy score is 0.99.
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+Precision Score:
+* Precision is the ratio of true positive predictions to the total predicted positives. For the high-risk loans (1), the precision score is 0.87.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+Recall Score:
+* Recall, also known as sensitivity or true positive rate, measures the ability of the model to capture all positive instances. The recall score for high-risk loans (1) is 0.89.
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
@@ -60,3 +57,7 @@ Summarise the results of the machine learning models, and include a recommendati
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
+
+The analysis successfully developed and evaluated a logistic regression model for predicting loan risk based on financial features. 
+
+The model exhibited promising performance, providing a valuable tool for assessing and managing the risk associated with loans.
