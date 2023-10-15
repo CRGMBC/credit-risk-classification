@@ -59,7 +59,7 @@ The model achieved a high accuracy score, signifying that a significant proporti
 
 Precision and Recall for High-Risk Loans:
 
-The precision score for high-risk loans indicates the proportion of correctly identified high-risk loans among all predicted high-risk loans. Similarly, the recall score demonstrates the model's ability to identify actual high-risk loans. Both precision and recall scores for high-risk loans are noteworthy, [insert justifications if needed].
+The precision score for high-risk loans indicates the proportion of correctly identified high-risk loans among all predicted high-risk loans. Similarly, the recall score demonstrates the model's ability to identify actual high-risk loans. Both precision and recall scores for high-risk loans are noteworthy.
 
 Recommendation:
 
@@ -69,12 +69,12 @@ Justification for Recommendation:
 
 1. Accuracy in Identifying Risk:
 
-* The model demonstrated a high accuracy score, indicating its proficiency in making correct predictions. This is vital for the company to make informed decisions about loan approvals and risk management.
+The model demonstrated a high accuracy score, indicating its proficiency in making correct predictions. This is vital for the company to make informed decisions about loan approvals and risk management.
 
 2. Balanced Precision and Recall:
 
-* The balanced precision and recall scores for high-risk loans suggest that the model not only correctly identifies high-risk loans but also minimizes false positives. This is crucial for the company to avoid unnecessary caution or rejection of potentially good loans.
+The balanced precision and recall scores for high-risk loans suggest that the model not only correctly identifies high-risk loans but also minimizes false positives. This is crucial for the company to avoid unnecessary caution or rejection of potentially good loans.
 
 3. Interpretability of Logistic Regression:
 
-* Logistic regression models are relatively interpretable, making it easier for stakeholders to understand the factors influencing the predictions. This transparency can contribute to better decision-making processes within the company.
+Logistic regression models are relatively interpretable, making it easier for stakeholders to understand the factors influencing the predictions. This transparency can contribute to better decision-making processes within the company.
