@@ -31,9 +31,12 @@ Model Evaluation:
 
 ## Methods Used
 
-Logistic Regression: Utilized the logistic regression algorithm for its suitability in binary classification tasks.
-Train-Test Split: Split the dataset into training and testing sets to assess the model's generalization performance.
-Evaluation Metrics: Employed confusion matrix, precision, recall, and F1-score to evaluate model performance.
+Logistic Regression: 
+* Utilized the logistic regression algorithm for its suitability in binary classification tasks.
+Train-Test Split: 
+* Split the dataset into training and testing sets to assess the model's generalization performance.
+Evaluation Metrics: 
+* Employed confusion matrix, precision, recall, and F1-score to evaluate model performance.
 
 
 ## Results
