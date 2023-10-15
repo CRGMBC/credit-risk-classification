@@ -9,6 +9,7 @@ The dataset includes various financial features, and the target variable for pre
 
 ## Variables to Predict:
 Target Variable: loan_status (Binary: 0 or 1)
+
 Features: Other columns in the dataset, excluding the target variable.
 
 ## Stages of the Machine Learning Process:
