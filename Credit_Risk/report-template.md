@@ -51,13 +51,30 @@ Recall Score:
 
 
 ## Summary
+The logistic regression model exhibited commendable performance in predicting loan risk based on the provided financial data.
 
-Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+High Accuracy:
 
-If you do not recommend any of the models, please justify your reasoning.
+The model achieved a high accuracy score, signifying that a significant proportion of predictions were correct. This is crucial for the company as it ensures reliable assessments of loan health.
 
-The analysis successfully developed and evaluated a logistic regression model for predicting loan risk based on financial features. 
+Precision and Recall for High-Risk Loans:
 
-The model exhibited promising performance, providing a valuable tool for assessing and managing the risk associated with loans.
+The precision score for high-risk loans indicates the proportion of correctly identified high-risk loans among all predicted high-risk loans. Similarly, the recall score demonstrates the model's ability to identify actual high-risk loans. Both precision and recall scores for high-risk loans are noteworthy, [insert justifications if needed].
+
+Recommendation:
+
+Based on the robust performance metrics, I recommend the implementation of this logistic regression model for assessing loan risk within the company. The high accuracy, precision, and recall scores suggest that the model is reliable and effective in distinguishing between healthy and high-risk loans.
+
+Justification for Recommendation:
+
+1. Accuracy in Identifying Risk:
+
+* The model demonstrated a high accuracy score, indicating its proficiency in making correct predictions. This is vital for the company to make informed decisions about loan approvals and risk management.
+
+2. Balanced Precision and Recall:
+
+* The balanced precision and recall scores for high-risk loans suggest that the model not only correctly identifies high-risk loans but also minimizes false positives. This is crucial for the company to avoid unnecessary caution or rejection of potentially good loans.
+
+3. Interpretability of Logistic Regression:
+
+* Logistic regression models are relatively interpretable, making it easier for stakeholders to understand the factors influencing the predictions. This transparency can contribute to better decision-making processes within the company.
