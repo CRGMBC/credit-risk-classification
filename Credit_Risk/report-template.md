@@ -15,21 +15,21 @@ Features: Other columns in the dataset, excluding the target variable.
 ## Stages of the Machine Learning Process:
 
 Data Loading and Exploration:
-*Loaded the dataset into a Pandas DataFrame.
-*Explored the structure of the data using head() to understand the features.
+* Loaded the dataset into a Pandas DataFrame.
+* Explored the structure of the data using head() to understand the features.
 
 Data Preprocessing:
-*Created labels (y) and features (X) from the dataset.
-*Split the data into training and testing sets using train_test_split.
+* Created labels (y) and features (X) from the dataset.
+* Split the data into training and testing sets using train_test_split.
 
 Model Development:
-*Utilized a logistic regression model to predict loan status.
-*Fit the model using the training data (X_train and y_train).
-*Made predictions on the testing data (X_test).
+* Utilized a logistic regression model to predict loan status.
+* Fit the model using the training data (X_train and y_train).
+* Made predictions on the testing data (X_test).
 
 Model Evaluation:
-*Generated a confusion matrix to assess the performance of the model.
-*Printed a classification report, including precision, recall, and F1-score.
+* Generated a confusion matrix to assess the performance of the model.
+* Printed a classification report, including precision, recall, and F1-score.
 
 
 ## Results
