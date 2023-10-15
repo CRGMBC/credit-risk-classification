@@ -1,7 +1,5 @@
 # Module 20 Report
 
-## Overview of the Analysis
-
 ## Purpose of the Analysis:
 The purpose of this machine learning analysis was to develop a predictive model for assessing loan risk. The dataset, sourced from the "lending_data.csv" file, contains financial information related to loans, and the primary goal was to predict whether a loan is healthy (0: low risk) or high-risk (1: likely to default).
 
@@ -30,6 +28,12 @@ Model Development:
 Model Evaluation:
 * Generated a confusion matrix to assess the performance of the model.
 * Printed a classification report, including precision, recall, and F1-score.
+
+## Methods Used
+
+Logistic Regression: Utilized the logistic regression algorithm for its suitability in binary classification tasks.
+Train-Test Split: Split the dataset into training and testing sets to assess the model's generalization performance.
+Evaluation Metrics: Employed confusion matrix, precision, recall, and F1-score to evaluate model performance.
 
 
 ## Results
